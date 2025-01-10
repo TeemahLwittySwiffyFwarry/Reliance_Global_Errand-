@@ -41,13 +41,13 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="w-full max-w-6xl my-8 mx-auto px-4">
+    <section id="services" className="w-full max-w-6xl my-8 mx-auto px-4">
       <h2 className="text-3xl font-bold text-blue-700 text-center mb-8">Services Offered</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service) => (
           <div
             key={service.title}
-            className="bg-gradient-to-r from-blue-500 to-green-400 text-white shadow-lg p-6 rounded-lg text-center transition-transform transform hover:scale-105"
+            className="bg-gradient-to-r from-blue-600 to-cyan-400 text-white shadow-lg p-6 rounded-lg text-center transition-transform transform hover:scale-105"
           >
             <div className="text-4xl mb-4">{service.icon}</div>
             <h3 className="text-xl font-bold">{service.title}</h3>

@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/f
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8 w-screen">
+    <footer className="bg-gray-800 text-white text-center md:text-justify py-8 w-screen">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* About Section */}
@@ -18,10 +18,10 @@ const Footer = () => {
           <div className="flex-1">
             <h3 className="text-xl font-bold mb-2">Quick Links</h3>
             <ul className="text-sm">
-              <li><a href="/" className="hover:underline">Home</a></li>
-              <li><a href="/about" className="hover:underline">About Us</a></li>
-              <li><a href="/services" className="hover:underline">Services</a></li>
-              <li><a href="/contact" className="hover:underline">Contact</a></li>
+              <li><a href="#home" className="hover:underline">Home</a></li>
+              <li><a href="#about" className="hover:underline">About Us</a></li>
+              <li><a href="#services" className="hover:underline">Services</a></li>
+              <li><a href="#contact" className="hover:underline">Contact</a></li>
             </ul>
           </div>
           
@@ -55,7 +55,7 @@ const Footer = () => {
         
         {/* Bottom Section */}
         <div className="text-center mt-8 text-sm">
-          <p>&copy; {new Date().getFullYear()} TeemahLwittySwiffyFwarry All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} TeemahInvites All rights reserved.(+2348029958684)</p>
         </div>
       </div>
     </footer>
